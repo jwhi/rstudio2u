@@ -1,6 +1,0 @@
-install.packages("rmarkdown", dep = TRUE)
-install.packages("glue", dep = TRUE)
-install.packages("magrittr", dep = TRUE)
-install.packages("stringi", dep = TRUE)
-install.packages("vctrs", dep = TRUE)
-install.packages("stringr", dep = TRUE)

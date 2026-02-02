@@ -28,4 +28,4 @@ CMD ["/init"]
 RUN /rocker_scripts/install_pandoc.sh && /rocker_scripts/install_quarto.sh
 
 # Install R Markdown and Dependencies
-RUN Rscript /rocker_scripts/install_rmarkdown.r
+RUN /rocker_scripts/install_rmarkdown.sh
